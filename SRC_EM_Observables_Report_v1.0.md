@@ -1,6 +1,6 @@
 # Scalar Relaxation Cosmology: Vortex Dynamics and Electromagnetic Energy in the Interstellar Medium
 
-**Authors:** [Your Name] (Independent Researcher)  
+**Authors:** Gerald Henton & Asscociates  (Independent Researcher)  
 **Date:** December 21, 2025  
 **Version:** 1.0 (Preliminary Technical Report)  
 **Repository:** https://github.com/warpXspeed/scalar-relaxation-cosmology  
