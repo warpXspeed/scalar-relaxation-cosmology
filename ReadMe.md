@@ -1,3 +1,26 @@
+# Scalar Relaxation Cosmology
+
+One eternal dilatant tension field.  
+Gravity as slow fluid flow.  
+Light as on-demand rigid waveguides.  
+Everything else as the field's natural song.
+
+## The Book
+Read the full story of discovery: [From Crystal to Cosmos](From-Crystal-to-Cosmos.md)
+
+- A lifetime of curiosity under dark skies
+- Refusing patches, following nature
+- How the substrate resolves open mysteries (Hawking, Sakharov, Boltzmann, and more)
+
+## Current Status
+Actively evolving — latest insights: dilatant substrate as primal tune, black-hole currents resolving Hawking paradoxes.
+
+Simulations coming soon in /sims
+
+Pull requests and thoughtful discussion welcome.
+
+
+
 # Scalar Relaxation Cosmology (SRC)
 
 **An Eternal Scalar Field Theory Unifying Gravity, Electromagnetism, Particles, and Cosmology**
