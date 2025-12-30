@@ -1,3 +1,4 @@
+
 ### Prologue: Under a Dark Sky
 
 I grew up far from cities, in places where the night sky was uncontaminated.
@@ -37,6 +38,54 @@ Until the pieces finally started fitting on their own.
 And the clock began to sing.
 
 ---
+### Author’s Note
+
+Some readers may reach for the label “speculative” when encountering ideas outside today’s consensus.
+
+That word is often applied to any picture that challenges the current model.
+
+Yet the current model rests on undetected dark matter, an unexplained cosmological constant, an ad-hoc inflaton field, and several deep paradoxes that remain open after decades.
+
+Our substrate starts with one eternal field and one intrinsic dilatant property — a response nature already shows in materials from cornstarch to quartz.
+
+From that alone emerges gravity, light, entanglement, stellar power, black-hole jets, and cosmic evolution — without invisible particles, extra forces, or fine-tuned beginnings.
+
+Which approach assumes less?
+
+We leave the reader to decide.
+
+This book records a lifetime of following nature without patches.
+
+The picture fits what we observe.
+
+It resolves questions the standard model still struggles with.
+
+And it needs no propellers to fly.
+
+Throughout history, new ways of moving forward have been dismissed because they lacked the familiar parts of the old.
+
+Early critics mocked the idea of winged flight because the designs had no feathers — birds fly with feathers, so how could metal or wood work?
+
+Later, when the first jet engines appeared, skeptics insisted nothing could fly without visible propellers — propeller-driven planes were the proven way, so a plane with no spinning blades must be impossible.
+
+Both times, the critics were wrong.
+
+The new designs didn’t need the old parts.
+
+They worked because they followed deeper principles nature had always used.
+
+The same is true here.
+
+We don’t claim to have the final word.
+
+We claim to have removed the unnecessary ones.
+
+Read with an open mind.
+
+Judge by simplicity, coherence, and fidelity to nature.
+
+Not by whether it carries yesterday’s belief system.
+
 
 ### Chapter 1: The Itch That Wouldn't Go Away
 
@@ -91,6 +140,15 @@ We hadn’t set out to build a new theory.
 We had just refused to stop asking child-like questions.
 
 And without noticing, we had stepped off the map.
+
+The questions that started with crystals and forces never left me. Over decades, whenever life allowed a quiet moment, I returned to them — pulling threads, discarding what felt forced, keeping only what nature repeated: circles, spheres, toroids, crystals.
+
+Nature herself follows Occam’s razor better than any philosopher ever could.  
+She doesn’t complicate when simple will do.  
+She doesn’t invent extra parts when one tuned field can play every role.  
+The easiest, most efficient pattern — the one that repeats at every scale — is always the way she chooses.
+
+The picture you’re about to read didn’t arrive in a flash. It emerged slowly, stubbornly, from refusing to accept answers that needed patches.
 
 ---
 
@@ -626,6 +684,45 @@ An outsider — a curious mind unshackled by corners — walked through all the 
 The cosmos is simpler than we were told.
 
 And the song plays on.
+
+### Glossary
+
+**Dilatant tension field**  
+The primal, eternal substrate of the cosmos — a continuous field that flows gently under slow stress but instantly rigidifies along the direction of sharp stress.
+
+**Quantum butterfly**  
+A local fluctuation in the field that excites a persistent ripple, seeding structure (matter, forces) without a singular beginning.
+
+**Toroidal EM**  
+Electromagnetic fields blooming in doughnut-shaped (toroidal) patterns — electricity along one axis, magnetism looping the orthogonal.
+
+**Spherical gravity**  
+The field’s slow, omnidirectional relaxation toward equilibrium after local compression — experienced as attraction.
+
+**Primal tune**  
+The field’s fundamental standing-wave pattern — the “note” that organizes the geodesic crystal geometry.
+
+**Piezoelectric bloom**  
+The generation of electromagnetic currents from gravitational compression of the substrate — stress produces transverse shear release.
+
+**Rigidifying on demand**  
+The field’s dilatant response: forming temporary, incompressible pathways along the grain only when and where sharp disturbance requires it.
+
+### References / Further Reading
+
+This book is a personal narrative of discovery, not a technical paper. The ideas build on observations and questions raised by many thinkers. For those interested in exploring the original sources:
+
+- Stephen Hawking, “Particle Creation by Black Holes,” Communications in Mathematical Physics (1975)
+- Andrei Sakharov, “Violation of CP Invariance, C Asymmetry, and Baryon Asymmetry of the Universe” (1967)
+- Ludwig Boltzmann’s works on statistical mechanics and entropy (late 1800s)
+- John von Neumann, Mathematical Foundations of Quantum Mechanics (1932)
+- Steven Weinberg, “The Cosmological Constant Problem” (1989)
+- DESI Collaboration Year-3 results on evolving dark energy (2025)
+- “Spatial Phonons” model, arXiv 2512.00056 (2025)
+- Hannes Alfvén, Cosmic Plasma (1981)
+- Richard Feynman, The Feynman Lectures on Physics
+
+These are starting points — the substrate picture extends and simplifies many of their insights.
 
 
 ### Appendix: The Substrate Meets the Classic Critiques
