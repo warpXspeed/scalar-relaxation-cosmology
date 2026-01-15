@@ -46,3 +46,18 @@ This sub-0.04% agreement confirms that transverse shear waves propagate at preci
 
 Further details in `docs/wave_speed_explanation.md`.
 
+### Laboratory & Educational Simulations
+
+These scripts provide simple, standalone demonstrations of key SRC concepts using real-world analogs.
+
+- **`scripts/ice_flexo_analog.py`**  
+  2D quasi-static simulation of flexoelectricity in a bent water ice slab.  
+  Reproduces the large measured flexoelectric coefficient (~1.14 nC/m from Wen et al., *Nature Physics* 2025) using scaled SRC parameters (G_shear, χ-inspired coupling).  
+  Features temperature-dependent surface enhancement near the 160 K ferroelectric transition.  
+  Dependencies: numpy, matplotlib  
+  Run: `python scripts/ice_flexo_analog.py`  
+  Example output: [outputs/ice_flexo_T200K.png](outputs/ice_flexo_T200K.png) (or similar)
+
+See also: Technical Manual Section 15.5 for the theoretical context (piezoelectric emergence and ice analog).
+
+
