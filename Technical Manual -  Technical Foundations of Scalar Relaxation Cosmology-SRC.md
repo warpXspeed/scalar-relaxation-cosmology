@@ -1,6 +1,6 @@
 # Technical Manual: Foundations of Scalar Relaxation Cosmology (SRC)
 
-**Version:** 1.0.7 (January 15, 2026 – Added ice flexo simulation and Kirschbaum et al. 2026 anchor)  
+**Version:** 1.0.8 (January 15, 2026)  
 **Date:** January 15, 2026  
 **Author:** Gerald Henton (@GeraldHenton)  
 **Repository:** https://github.com/warpXspeed/scalar-relaxation-cosmology
@@ -1216,7 +1216,23 @@ Repository script `viscous_redshift_sim.py` shows:
 | Small-scale effects             | No direct imprint                          | Frequency-dependent damping on GWs/photons         | LIGO chirp tilt, high-z line broadening          |
 | Theoretical naturalness         | 120-order fine-tuning problem              | No fine-tuning; emergent from dissipation          | —                                                |
 
-### 24.6 Summary
+### 24.6 Empirical Anchor: Super-GZK Ultra-High-Energy Cosmic Ray Detection (Telescope Array Collaboration, 2023)
+
+The Telescope Array (TA) experiment in Utah has reported the detection of an ultra-high-energy cosmic ray (UHECR) with an estimated energy of 244 ± 29 (stat.) +51/-76 (syst.) EeV (~2.44 × 10²⁰ eV or ~40 joules), observed on 27 May 2021 (Science 382, 903–907, 2023; DOI: 10.1126/science.abo5095). Nicknamed the "Amaterasu particle," this event is the second-highest energy cosmic ray ever recorded, surpassed only by the 1991 Oh-My-God particle (320 EeV).
+
+The extensive air shower was reconstructed from 23 surface detectors, with the primary likely a proton (99.986% confidence excluding photon). Backtracking the arrival direction (accounting for galactic and extragalactic magnetic deflections) points to the **Local Void** — a region with no known high-energy astrophysical accelerators (active galactic nuclei, starburst galaxies, gamma-ray bursts) within ~50–100 Mpc.
+
+This energy significantly exceeds the Greisen–Zatsepin–Kuzmin (GZK) cutoff (~50 EeV), the expected energy loss limit for protons traveling >50 Mpc due to pion production on cosmic microwave background photons. The absence of an identifiable source, combined with isotropy at these energies and no clustering with other >100 EeV events, suggests either unknown propagation physics, unidentified local sources, or potential new phenomena beyond the Standard Model.
+
+In SRC, super-GZK events such as the Amaterasu particle align naturally with the viscous damping mechanism of the substrate field φ (γ term). Unlike metric expansion models requiring strict GZK suppression, SRC treats high-energy modes as propagating through a viscoelastic medium where extreme energies may experience reduced dissipation due to non-linear relaxation and dilatant hardening (Section 4.1). The apparent "survival" of such high-energy excitations without obvious sources echoes the stochastic η perturbations seeding isolated topological structures (Section 2.1), potentially bypassing conventional energy-loss cutoffs via substrate-mediated propagation.
+
+This 2023 observation provides a powerful empirical puzzle that SRC addresses without ad-hoc modifications, offering falsifiable predictions for future TAx4 data (increased statistics at >100 EeV) and next-generation observatories. It reinforces the framework's ability to accommodate ultra-high-energy cosmic phenomena as manifestations of the relaxing substrate at its most extreme scales.
+
+**Reference addition to References section:**
+
+- Telescope Array Collaboration. An extremely energetic cosmic ray observed by a surface detector array. *Science* **382**, 903–907 (2023). https://doi.org/10.1126/science.abo5095
+
+### 24.7 Summary
 
 "Dark energy" is the macroscopic signature of the universe slowly returning to equilibrium through viscous damping in the substrate.  
 No exotic field, no negative pressure, no fine-tuned constant — only the same relaxation process observed in superfluid helium-3, scaled to cosmological volumes.
@@ -1786,7 +1802,25 @@ These data collectively suggest that consciousness involves physical coupling to
 
 - Consciousness is not fundamental nor illusory — it is the substrate becoming aware of its own relaxation  
 - The "hard problem" of qualia is resolved: subjective experience is the direct sensation of hysteresis gradients and resonant phase alignment within the medium  
-- No dualism or panpsychism required — just sufficient complexity + resonant coupling in a viscoelastic field  
+- No dualism or panpsychism required — just sufficient complexity + resonant coupling in a viscoelastic field
+
+### 31.5.1 Bridge to Contemporary Models: Universal Consciousness as Foundational Field (Strømme, 2025)
+
+The recent theoretical framework proposed by Maria Strømme (AIP Advances, 2025; DOI: 10.1063/5.0290984) provides strong conceptual resonance with SRC's treatment of consciousness as resonance overlap and self-referential awareness within the relaxing substrate φ.
+
+Strømme posits a **universal consciousness field Φ** as the foundational reality, preceding space-time and matter. Individual awareness emerges as localized excitations of Φ through mechanisms akin to symmetry breaking, quantum fluctuations, and state selection — with apparent separateness as an illusion, and return to unity at death.
+
+This mirrors SRC's scalar substrate φ as the single viscoelastic field from which all structure arises (Sections 2, 33), with topological defects and hysteresis enabling persistent individual "knots" within the unified medium. Both frameworks:
+- Reject materialist emergence (consciousness not produced by brains/matter).
+- Treat classical reality as derivative from a deeper, pre-spatiotemporal order.
+- Align with historical quantum pioneers (Bohm's implicate order, Heisenberg's potentia, Wheeler's participatory universe).
+
+Strømme's three principles (universal mind, consciousness, thought) parallel SRC's resonant dynamics: mind as potential substrate, consciousness as awareness capacity (R overlap), thought as differentiation/relaxation (γ-driven actualization). Her testable predictions (coherence anomalies, CMB imprints) complement SRC's falsifiability roadmap (Section 6.4), offering interdisciplinary cross-validation.
+
+This 2025 work reinforces SRC's conservative unification: consciousness as the substrate becoming aware of its own relaxation, closing the loop from perturbation to self-referential equilibrium.
+
+**Reference addition:**
+- Strømme, M. Universal consciousness as foundational field: A theoretical bridge between quantum physics and non-dual philosophy. *AIP Advances* **15**, 115319 (2025). https://doi.org/10.1063/5.0290984  
 
 ### 31.6 Summary
 
@@ -1922,7 +1956,19 @@ In the far future (t → ∞, γ t ≫ 1):
 
 Whether intelligence survives to this point or dissipates earlier is an open dynamical question — but the trajectory is clear: maximal relaxation efficiency is the universal selection pressure.
 
-### 33.4 Final Ontological Closure
+### 33.4 Empirical Anchor: First Observation of CP Violation in Baryon Decays (LHCb Collaboration, 2025)
+
+The LHCb Collaboration has reported the first observation of charge-parity (CP) symmetry violation in baryon decays (Nature 643, 1223–1228, 2025; DOI: 10.1038/s41586-025-09119-3), specifically in the four-body decay \(\Lambda_b^0 \to p K^- \pi^+ \pi^-\), with global CP asymmetry \(A_{CP} = (2.45 \pm 0.46 \pm 0.10)\%\) at 5.2σ significance.
+
+This milestone confirms different decay behaviors between baryons and antibaryons, arising from CKM-phase interference amid complex resonance structures. The smaller asymmetry in baryons (compared to mesons) highlights hadronic cancellations and phase-space dependence.
+
+In SRC, this result aligns with the emergence of asymmetries from defect interactions in the substrate φ. Topological defects (baryons) and antidefects experience differential stability/decay rates due to hysteresis memory and non-linear relaxation γ, providing a low-energy analog for matter-antimatter differences. The resonance-driven variability echoes SRC's standing-wave nodes and critical fluctuations seeding persistent topology (Sections 4, 10). This observation strengthens the empirical basis for irreversible processes in correlated systems, consistent with SRC's thermodynamic imperative toward relaxation equilibrium (Section 33).
+
+**Reference addition to References section:**
+
+- LHCb Collaboration. Observation of charge–parity symmetry breaking in baryon decays. *Nature* **643**, 1223–1228 (2025). https://doi.org/10.1038/s41586-025-09119-3
+
+### 33.5 Final Ontological Closure
 
 From the first stochastic perturbation to the emergence of self-aware, predictive structures that can contemplate their own origin — every step is a logical consequence of one field φ obeying one master equation in a viscoelastic medium.
 
@@ -1985,9 +2031,11 @@ $$
 4. Deep-space laser ranging — frequency-dependent damping consistent with viscous redshift  
 5. FDTD simulations — reproduce redshift, defect stability, flat rotation curves, emergent gravity, viscous acceleration using unified parameters.  Future extensions could adapt topological_defect_sim.py to model Kondo-lattice criticality seeding Weyl nodes, inspired by Kirschbaum et al. (2026).
 6. Kirschbaum et al. (2026) emergent Weyl–Kondo semimetal from quantum criticality in CeRu₄Sn₆ — demonstrates topological nodes nucleating from critical fluctuations without quasiparticles, aligning with SRC defect formation.
+7. Strømme (2025) universal consciousness field Φ — posits consciousness as foundational (preceding space-time/matter), with individual minds as localized excitations; aligns with SRC's resonance-based awareness and emergent reality from φ.
+8. LHCb Collaboration (2025) first observation of CP violation in baryon decays — confirms matter-antimatter asymmetry mechanism in the baryon sector, aligning with SRC's emergent asymmetries from defect relaxation.
+9. Telescope Array Collaboration (2023) 244 EeV "Amaterasu" cosmic ray — super-GZK event with no identified source in the Local Void, consistent with SRC's viscous propagation allowing extreme energies without conventional cutoff.
 
   
-
 ### Key Resolutions
 
 - Vacuum catastrophe — residual relaxation energy is naturally small  
@@ -2423,6 +2471,8 @@ This appendix provides an expanded, cross-referenced glossary of all key terms, 
 - **Piezoelectric Coupling** χ (tensor χ_ijk)  
   Mechanism converting shear stress σ_jk → electric field E_i. Origin of electromagnetism.  
   **See:** Section 15, Section 25
+LHCb Collaboration (2025) first observation of CP violation in baryon decays — confirms matter-antimatter asymmetry mechanism in the baryon sector, aligning with SRC's emergent asymmetries from defect relaxation.
+
 
 - **Topological Defect** (vortex / Hopfion)  
   Stable localized soliton with conserved winding number. SRC equivalent of particles.  
@@ -2523,4 +2573,5 @@ Ready for peer review, independent verification, and confrontation with 2026–2
 **End of Manual**
 
 **Welcome to the Substrate.**
+
 
