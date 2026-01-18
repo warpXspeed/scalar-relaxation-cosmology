@@ -1457,7 +1457,7 @@ This section provides a concise "ducks in a row" status checklist — the curren
 3. **Duck 3 – Particles**  
    Elementary particles are stable topological defects (vortices/Hopfions) in φ.  
    **Status:** Strongly supported  
-   **Evidence:** FDTD simulations (topological_defect_sim.py) show spontaneous formation and long-term stability of W=1 Hopfions under realistic γ and V(φ).
+   **Evidence:** FDTD simulations (topological_defect_sim.py) show spontaneous formation and long-term stability of W=1 Hopfions under realistic γ and V(φ).<<<<<<< HEAD
     **Reinforced** New Evidence: Emergent Weyl nodes from QCP in heavy-fermion system (Kirschbaum et al., 2026), consistent with defect nucleation without quasiparticles.
 
 
@@ -2033,8 +2033,6 @@ $$
 6. Kirschbaum et al. (2026) emergent Weyl–Kondo semimetal from quantum criticality in CeRu₄Sn₆ — demonstrates topological nodes nucleating from critical fluctuations without quasiparticles, aligning with SRC defect formation.
 7. Strømme (2025) universal consciousness field Φ — posits consciousness as foundational (preceding space-time/matter), with individual minds as localized excitations; aligns with SRC's resonance-based awareness and emergent reality from φ.
 8. LHCb Collaboration (2025) first observation of CP violation in baryon decays — confirms matter-antimatter asymmetry mechanism in the baryon sector, aligning with SRC's emergent asymmetries from defect relaxation.
-9. Telescope Array Collaboration (2023) 244 EeV "Amaterasu" cosmic ray — super-GZK event with no identified source in the Local Void, consistent with SRC's viscous propagation allowing extreme energies without conventional cutoff.
-
   
 ### Key Resolutions
 
@@ -2471,8 +2469,13 @@ This appendix provides an expanded, cross-referenced glossary of all key terms, 
 - **Piezoelectric Coupling** χ (tensor χ_ijk)  
   Mechanism converting shear stress σ_jk → electric field E_i. Origin of electromagnetism.  
   **See:** Section 15, Section 25
+<<<<<<< HEAD
 LHCb Collaboration (2025) first observation of CP violation in baryon decays — confirms matter-antimatter asymmetry mechanism in the baryon sector, aligning with SRC's emergent asymmetries from defect relaxation.
 
+=======
+LHCb Collaboration (2025) first observation of CP violation in baryon decays — confirms matter-antimatter asymmetry mechanism in the baryon sector, aligning with SRC's emergent asymmetries from defect relaxation.
+
+>>>>>>> 8a1a277 (Add core simulation modules and drivers (Jan 2026))
 
 - **Topological Defect** (vortex / Hopfion)  
   Stable localized soliton with conserved winding number. SRC equivalent of particles.  

@@ -1,0 +1,8 @@
+# .gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+outputs/*
+!outputs/.gitkeep   # optional: keep empty dir
