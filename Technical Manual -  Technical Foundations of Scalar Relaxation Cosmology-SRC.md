@@ -1230,9 +1230,23 @@ This 2023 observation provides a powerful empirical puzzle that SRC addresses wi
 
 **Reference addition to References section:**
 
-- Telescope Array Collaboration. An extremely energetic cosmic ray observed by a surface detector array. *Science* **382**, 903–907 (2023). https://doi.org/10.1126/science.abo5095
+- Telescope Array Collaboration. An extremely energetic cosmic ray observed by a surface detector array. *Science* **382**, 903–907 (2023). https://doi.org/10.1126/science.abo5095### 24.6 Emergent Topological Semimetal from Quantum Criticality (Kirschbaum et al., 2026; Rice University / TU Wien collaboration)
 
-### 24.7 Summary
+Kirschbaum et al. (Nature Physics, 2026; DOI: 10.1038/s41567-025-03135-w), with key theoretical contributions from Rice University (Q. Si group) and experimental work at TU Wien, demonstrate that a Weyl–Kondo semimetal phase emerges directly from the Kondo-destruction quantum critical point in the non-centrosymmetric heavy-fermion semimetal CeRu₄Sn₆. The topological phase forms a dome-like structure in the pressure–magnetic field plane, persisting in a regime where quasiparticles are absent.
+
+**Relevance to SRC**: This provides an empirical example of emergent topological structure arising at a quantum critical point without well-defined quasiparticles — analogous to how stable topological defects (vortices/Hopfions) in the viscoelastic scalar substrate φ can carry particle-like properties and exhibit collective modes even in the absence of conventional Fermi-liquid quasiparticles. The breakdown of the quasiparticle picture at the QCP mirrors the hysteresis and wake/memory effects proposed for quantum behavior in SRC, where topology is substrate-intrinsic rather than band-structure-derived. This anchor strengthens the case for piezoelectric shear modes and defect stability originating from correlated, non-perturbative dynamics in φ.
+
+(References: include in .bib — Kirschbaum2026, Si-group contributions via Chen et al. modeling, etc.)
+
+- ### 24.7 Emergent Topological Semimetal from Quantum Criticality (Kirschbaum et al., 2026; Rice University / TU Wien collaboration)
+
+Kirschbaum et al. (Nature Physics, 2026; DOI: 10.1038/s41567-025-03135-w), with key theoretical contributions from Rice University (Q. Si group) and experimental work at TU Wien, demonstrate that a Weyl–Kondo semimetal phase emerges directly from the Kondo-destruction quantum critical point in the non-centrosymmetric heavy-fermion semimetal CeRu₄Sn₆. The topological phase forms a dome-like structure in the pressure–magnetic field plane, persisting in a regime where quasiparticles are absent.
+
+**Relevance to SRC**: This provides an empirical example of emergent topological structure arising at a quantum critical point without well-defined quasiparticles — analogous to how stable topological defects (vortices/Hopfions) in the viscoelastic scalar substrate φ can carry particle-like properties and exhibit collective modes even in the absence of conventional Fermi-liquid quasiparticles. The breakdown of the quasiparticle picture at the QCP mirrors the hysteresis and wake/memory effects proposed for quantum behavior in SRC, where topology is substrate-intrinsic rather than band-structure-derived. This anchor strengthens the case for piezoelectric shear modes and defect stability originating from correlated, non-perturbative dynamics in φ.
+
+(References: include in .bib — Kirschbaum2026, Si-group contributions via Chen et al. modeling, etc.)
+
+### 24.8 Summary
 
 "Dark energy" is the macroscopic signature of the universe slowly returning to equilibrium through viscous damping in the substrate.  
 No exotic field, no negative pressure, no fine-tuned constant — only the same relaxation process observed in superfluid helium-3, scaled to cosmological volumes.
