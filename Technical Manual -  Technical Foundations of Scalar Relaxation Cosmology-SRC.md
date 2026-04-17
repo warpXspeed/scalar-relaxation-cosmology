@@ -152,6 +152,32 @@ This result strongly supports SRC's transverse shear-wave interpretation:
 
 Repository implementation: high_dim_wave_sim.py models analogous multi-mode shear propagation. Future scaling (e.g., 100+ dimensions) would further constrain γ and χ parameters.
 
+3.2 Static Limit: Inverse-Square Gravity from Defect Compression (April 2026 Refinement)In the quasi-static regime relevant to planetary and galactic orbits, time derivatives and the damping term γ∂tϕ\gamma \partial_t \phi\gamma \partial_t \phi
+ can be neglected on orbital timescales. The master equation reduces to the static equilibrium:−∇2ϕ+V′(ϕ)=0-\nabla^2 \phi + V'(\phi) = 0-\nabla^2 \phi + V'(\phi) = 0
+Linearize around the organized potential minimum ϕ=ϕ0\phi = \phi_0\phi = \phi_0
+ by setting ψ=ϕ−ϕ0\psi = \phi - \phi_0\psi = \phi - \phi_0
+. Outside the defect core this yields the Poisson equation:∇2ψ≈0\nabla^2 \psi \approx 0\nabla^2 \psi \approx 0
+A topological defect (vortex or Hopfion with winding number (W)) acts as a localized compression source. The core carries excess elastic energy density 12∣∇ϕ∣2+V(ϕ)\frac{1}{2} |\nabla \phi|^2 + V(\phi)\frac{1}{2} |\nabla \phi|^2 + V(\phi)
+, equivalent to a dilatation monopole with effective source strength (Q), whereQ∝∫(12∣∇ϕ∣2+V(ϕ))d3xQ \propto \int \left( \frac{1}{2} |\nabla \phi|^2 + V(\phi) \right) d^3xQ \propto \int \left( \frac{1}{2} |\nabla \phi|^2 + V(\phi) \right) d^3x
+((Q) is fixed by topology and the existing lattice parameters β\beta\beta
+ and shear modulus; no new constants are introduced.)The far-field solution in 3D is the Coulomb potential:ψ(r)=Qr\psi(\mathbf{r}) = \frac{Q}{r}\psi(\mathbf{r}) = \frac{Q}{r}
+A second defect with compression charge (Q') experiences a net force from the background pressure gradient (or strain field) of the first:F=−Q′∇ψ∝QQ′r2r^\mathbf{F} = -Q' \nabla \psi \propto \frac{Q Q'}{r^2} \hat{\mathbf{r}}\mathbf{F} = -Q' \nabla \psi \propto \frac{Q Q'}{r^2} \hat{\mathbf{r}}
+This recovers the Newtonian inverse-square gravitational force law directly from lattice compression in the organized ϕ\phi\phi
+ substrate. The same excess core energy that sources the compression field ψ\psi\psi
+ also determines the inertial response of the defect when accelerated (via coupling to the γ\gamma\gamma
+ damping term). Therefore, inertial mass (M) and gravitational "charge" (Q) are the same quantity, providing exact equivalence without additional mechanisms.Orbital Stability and Effective InstantaneityPlanets and stars respond primarily to the static pressure field ψ∼1/r\psi \sim 1/r\psi \sim 1/r
+, which is instantaneous by construction in the equilibrium limit. Dynamic perturbations propagate as longitudinal compression waves at finite speed cℓc_\ellc_\ell
+, but on orbital timescales the static balance dominates. This satisfies stable solar-system and galactic orbits without retardation torque, consistent with the longitudinal (bulk) versus transverse (shear) distinction in the crystalline fluid.The derivation uses only the existing master equation, topological defects, β/2\beta/2\beta/2
+ lattice stiffness, and the double-well potential V(ϕ)V(\phi)V(\phi)
+. It closes the prior gap between the stated compression-wave origin of gravity and the explicit 1/r21/r^21/r^2
+ macroscopic law.Simulation Test RecommendationExtend the existing FDTD solver (e.g., simulation_example.py or wave_speed_measure.py framework in the scripts/ folder) by imposing a fixed defect core (vortex boundary condition) and evolving a test defect. Measure the net force from the substrate pressure gradient ∝∇(∣∇ϕ∣2)\propto \nabla(|\nabla\phi|^2)\propto \nabla(|\nabla\phi|^2)
+. The static limit should numerically confirm F∝1/r2F \propto 1/r^2F \propto 1/r^2
+ to high precision, matching the 0.036% accuracy achieved for transverse wave speed.Cross-reference: See also SRC Supplemental Notes: Refinements & Extensions from Ongoing Development Discussions.md and Supplemental Document: Time-Gravity Unity in Scalar Relaxation Cosmology.md.
+
+
+
+
+
 ---
 
 ## 4. Topological Defects: Particles as Stable Knots
