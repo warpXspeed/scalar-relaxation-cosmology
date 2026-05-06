@@ -1,0 +1,83 @@
+# Single Resonance Crystal (SRC) Framework  
+**v1.0 — Exploratory Single Substrate Model**
+
+An organized alternative cosmology and astrophysics framework derived from one substrate: the **Energy Crystal (φ)** — a structured potential-energy lattice.
+
+**Status**: Work-in-progress speculative framework. All claims must emerge strictly from φ. Gaps are explicitly flagged.
+
+## Foundation (Single Substrate)
+
+The single substrate is the **Energy Crystal (φ)**: a structured potential-energy lattice with intrinsic geometry, frequency-dependent response, non-linear stress behavior, and self-organizing dynamics.
+
+All phenomena emerge from φ alone. No additional entities, fields, or particles are introduced.
+
+### Regimes
+- **Kinetic / EM Regime** (observable): High disturbance, decoherent, EM-dominant. Structures are transient and noisy.
+- **Resonant / Aether Regime**: Low disturbance, coherent, stable. Structure formation is efficient and persistent.
+
+## Core Mechanics
+
+- **Gravity** = Local lattice tightening toward regions of higher organization (energy density gradients in φ).
+- **Redshift / Apparent Expansion** = Global lattice relaxation; bound systems resist relaxation via internal currents.
+- **Plasma & Currents** = Primary organizers and maintainers of structure.
+- **Stars** = Current-maintained plasma engines. Galactic-scale currents supply primary energy input; fusion is secondary/emergent in pinched regions.
+- **Heavy Elements** = Formed via current-driven compression and resonant transmutation (e.g., iron-rich cores).
+- **Origin** = No singular Big Bang. Instead, ongoing distributed tension-release events (ξ) across φ.
+
+**Assembly Rule**: EM currents initiate and organize structure. Gravity is a secondary tightening effect.
+
+**Constraints**:
+- Strict conservation of energy and momentum within φ.
+- Prefer lowest-energy stable configurations under current flow.
+- Flag inconsistencies immediately.
+- Prioritize small, testable predictions tied to observables.
+
+## Key Applications
+
+### 1. Solar Circuit & Planet Formation
+- The Sun is powered primarily by galactic current inflow (lattice stress flow), with fusion secondary and localized in current pinches.
+- Protoplanetary disks form as filamentary current structures.
+- Planets condense at resonant nodes → natural explanation for **Kepler "peas-in-a-pod"** uniformity, regular spacings, and near-resonant chains (e.g., TRAPPIST-1).
+- Radial sorting (ionization potential) produces rocky inner planets and volatile-rich outer planets.
+- Iron-rich cores emerge from localized transmutation in inner high-compression zones.
+
+### 2. Galaxy Formation & JWST Observations
+- Galactic filaments (Birkeland-like currents) organize plasma rapidly in the resonant regime.
+- Predicts mature, massive galaxies and filamentary structures at high redshift (z > 10), matching JWST findings.
+- Assembly timescales: ~10–50 Myr possible via current-driven compression.
+
+### 3. Galactic Rotation Curves
+- Azimuthal currents create lattice vorticity and shear, providing centrifugal support.
+- Produces flat rotation curves (~200–250 km/s) without dark matter halos.
+- Naturally explains Tully-Fisher relation (stronger currents → brighter galaxies).
+
+## Testable Predictions
+
+- **Solar**: Modulated neutrino flux correlated with solar cycle (future Hyper-K / SNO+ test).
+- **Disks**: Organized toroidal/radial magnetic fields in protoplanetary disks (ALMA testable).
+- **JWST**: High fraction of filamentary morphologies at z > 10; polarized emission and metal gradients along filaments.
+- **Rotation Curves**: RM gradients and B-field alignment along spiral arms (SKA testable); correlation between filament environment and v_flat.
+- **Heavy Elements**: Faster enrichment and gradients in stars embedded in strong galactic filaments.
+
+## Open Gaps (v1.0)
+
+- Quantitative mapping from φ lattice geometry → exact current magnitudes (I) and effective voltage (V_eff).
+- Full derivation of resonance factor (f_res) and vorticity from intrinsic φ properties.
+- φ resistivity and dissipation rates across scales.
+- Detailed integration between galactic filaments and protoplanetary disks.
+- Direct confrontation with CMB power spectrum and solar neutrino spatial distribution.
+
+## Philosophy
+
+- Everything must derive from the single substrate φ.
+- Prefer simple mechanical explanations.
+- Emphasize small, practical, testable steps.
+- Plasma currents act as both builders and maintainers.
+
+---
+
+**Version**: 1.0 (May 2026)  
+**License**: Exploratory / Open for discussion  
+**Repository**: [Your GitHub link]
+
+Feedback, criticisms, and simulation contributions welcome. The goal is rigorous pressure-testing against observations.
