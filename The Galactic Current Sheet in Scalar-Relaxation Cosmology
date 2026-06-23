@@ -1,60 +1,50 @@
-# 
-A 5-minute, fully quantitative note
-December 2025
+**Here is a clean, honest replacement document** you can use to replace the faulty note on GitHub.
 
-The scalar-relaxation (Quiet Lake) model uses a single coupling β_g ≈ −4.8 × 10⁻⁶ to make gravity strengthen slowly with cosmic time, removing the need for dark energy and raising H₀ to ∼71 km s⁻¹ Mpc⁻¹.
+---
 
-Exactly the same coupling, acting locally in a rotating galactic disk, induces a thin return current in the mid-plane — i.e. the observed Galactic Current Sheet.
+**Galactic Current Sheet from Scalar Relaxation**  
+**Exploratory Note (v0.2)**  
+**Date:** June 2026
 
-Here is the calculation, using only standard MHD equations that every galactic-dynamo researcher already trusts.
+### Goal
+Explore whether the same scalar coupling used in cosmology can, in principle, contribute to the observed Galactic Current Sheet in a rotating disk — without introducing new free parameters.
 
-1. Local twist rate from differential rotation
-At the Solar circle (R₀ ≈ 8.5 kpc) the angular velocity gradient is
-dΩ/dR ≈ −30 km s⁻¹ kpc⁻¹  →  twist rate  Ω̇ ≈ 10⁻¹⁵ rad s⁻¹
+### Qualitative Mechanism
 
-2. Slippage source term in the scalar equation (identical to the cosmological case)
-The scalar φ feels a source from the energy-momentum trace:
-φ̈ + … = … + 2 β_g (ρ − 3p)
+1. Differential rotation in the galactic disk creates shear.
+2. The scalar field φ feels a source term from the rotating stress-energy.
+3. Time variation in φ, through its coupling to electromagnetism, induces an effective azimuthal electric field in the plasma.
+4. In highly conducting MHD plasma, charges rearrange to largely cancel the induced field, producing a thin, coherent return-current sheet in the mid-plane.
 
-In the disk mid-plane the dominant stress is the centrifugal term ≈ ρ v², so
-(ρ − 3p) ≈ +2 ρ_m (non-relativistic rotating gas)
-→  source ≈ 4 β_g ρ_m
+### Current Status
 
-3. Induced electric field from φ̇ (conformal coupling to photons)
-The photon Lagrangian is multiplied by e^{-4 β_γ φ}, but the dominant effect here comes from the time-varying Planck mass inducing an effective electric field in the plasma rest frame:
-E_induced ≈ − β_g φ̇ r  (azimuthal direction)
+This remains a **qualitative sketch** supported by order-of-magnitude estimates. Using fiducial values (β_g ≈ −4.8 × 10^{-6} and typical Solar-circle parameters), the mechanism produces surface currents in the general ballpark of published Galactic Current Sheet estimates (~10^{17}–10^{18} A range). Sheet thickness is set by the scale over which φ varies appreciably.
 
-With φ̇ ≈ 4 β_g ρ_m (from step 2) and ρ_m ≈ 0.1 M_⊙ pc⁻³ ≈ 7 × 10⁻²⁴ g cm⁻³,
-we obtain
-E_induced ≈ 2 × 10⁻¹⁷ statvolt cm⁻¹  (cgs)
+### Important Limitations (acknowledged)
 
-4. Resulting current density (Ohm’s law in highly conducting plasma)
-J = σ E_induced  with σ → ∞  →  perfect MHD frozen-in limit
-The plasma rearranges itself instantly to create a return current that cancels the induced E.
-The surface current density of the resulting sheet is
-K ≈ E_induced / c   (cgs displacement current balance)
+- The exact chain (shear → scalar source → induced E → current) has not been fully derived with consistent units and geometry.
+- The rotation source term is phenomenological at this stage and requires rigorous justification from the scalar field equation.
+- No full MHD simulation or detailed comparison with observations has been performed yet.
+- The idea reuses the same coupling for cosmology and galactic dynamics, which is attractive, but quantitative validation is still needed.
 
-K ≈ 2 × 10⁻¹⁷ / 3 × 10¹⁰ ≈ 6 × 10⁻²⁸ A cm⁻¹
-= 6 × 10¹⁷ A  across 1 kpc width
+### Next Required Steps
 
-Observed integrated current in the Milky Way sheet: 1–5 × 10¹⁸ A  
-Prediction: ∼ 3 × 10¹⁸ A (within observed range)
+- Explicit scalar field equation with rotation/shear source term
+- Proper derivation of induced electric field from scalar-photon coupling
+- Consistent MHD treatment of the return current
+- Direct comparison with observed Galactic Current Sheet properties
 
-Scale height of the sheet comes out automatically as the distance over which φ changes by ∼1/|β_g| ≈ 200–400 pc — again matching observation.
+### Conclusion
 
-Conclusion
-Using **exactly the same β_g that removes cosmological dark energy**, the scalar-relaxation model predicts a Galactic Current Sheet of the correct strength, thickness, and coherence length.
+The scalar-relaxation framework offers a conceptually economical way to connect cosmic expansion and galactic current systems through one coupling parameter. The present note is exploratory and highlights a promising direction, but it is not yet a completed quantitative derivation.
 
-The effect is **additive to (not exclusive of) the standard α–ω dynamo: both mechanisms produce azimuthal return currents in the same direction.
-
-The scalar mechanism provides the long-range coherence; the turbulent dynamo provides the short-scale fluctuations.
-
-Together they explain why the sheet is both extremely thin and extremely coherent over tens of kiloparsecs.
-
-No new parameters were introduced.
-
-Reference
-Full model and CLASS code:  
+Full evolving framework:  
 https://github.com/warpXspeed/scalar-relaxation-cosmology
 
-— End of note —
+Feedback, critiques, and collaborative derivations are welcome.
+
+---
+
+This version is honest about the current weaknesses while keeping the core intuition intact. It is suitable for public posting on GitHub.
+
+Would you like any adjustments before you upload it?
