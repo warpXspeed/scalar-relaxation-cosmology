@@ -1,0 +1,53 @@
+SRC Status Document – Current Locked State  
+(ready to archive and resume later)
+
+Core Foundation (unchanged)  
+One single substrate: φ — organized potential-energy crystal lattice.  
+Visible universe = chaotic kinetic layer from disturbances in φ.  
+Particles = defects / resonant organizations (not fundamental).  
+Cycle: Potential → Kinetic → Collapse → Potential.  
+Gravity = monopole lattice tightening.  
+EM = small-scale spallation/bleed (not yet derived).  
+Collapse = structural crack of the lattice.  
+Laboratory analogs are analogies only.  
+Rules: one substrate only, minimal, no ad-hoc entities, label exploratory, point gaps immediately, end with next small step.
+
+Continuum description developed (exploratory)  
+
+Transversely isotropic stiffness \(C_{ijkl}(\hat{n})\) with local director \(\hat{n}\).  
+
+Free-energy density  
+   \(f = \frac12 C_{ijkl}(\hat{n})\varepsilon_{ij}\varepsilon_{kl}\) + Frank terms + non-linear \(V(\rho,\varepsilon,\nabla\hat{n})\).  
+   \(V\) can drive effective bulk modulus \(K_{\rm eff}<0\).  
+
+Overdamped director kinetics  
+   \(\gamma\partial_t\hat{n}=-\mathbf{P}\cdot\delta\mathcal{F}/\delta\hat{n}\).  
+
+Constitutive stress \(\sigma_{ij}\) (elastic + Ericksen), momentum balance, mass continuity, local energy identity.  
+
+Linearized anisotropic acoustics (Christoffel matrix). Sound speeds anisotropic; classical continuum waves remain linear in \(k\).  
+
+Irreversible source  
+   \(\Sigma=\eta_d\times\) (director dissipation)  
+   feeds disordered energy density \(e_{\rm kin}\) when \(K_{\rm eff}\le0\)  
+   (Potential → Kinetic transition).  
+
+Proposed closed reverse sink (not yet locked)  
+   \(S_{\rm rec}=\gamma_{\rm coh}\,e_{\rm kin}\,\Theta(|\nabla\hat{n}|-n_{\rm crit})\)  
+   returns energy to coherent Potential under high director gradients.
+
+Explicitly deferred / rejected for now  
+Semi-Dirac matching  
+Open-system permanent loss terms  
+Inter-scale leakage / meta-lattices / higher dimensions  
+Active external drive  
+Cosmic-scale claims as foundations  
+Any EM or photon constitutive relation  
+
+Current open item  
+Adopt or modify \(S_{\rm rec}\) and write the two continuity equations that close the mechanical cycle inside the single substrate.
+
+Working principle going forward  
+Prefer local / laboratory-accessible scales (quantum → atomic → chemical → planetary → solar). Do not rest proofs on distant cosmological inferences.
+
+This is the documented state. It can be copied as the opening prompt of a new chat when data or readiness returns.
