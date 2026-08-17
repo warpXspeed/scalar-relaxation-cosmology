@@ -73,4 +73,6 @@ truth for all reasoning in the merged project.
 |---|---|---|---|
 | **Relaxation coefficient γ** | Relaxation-of-coherence rate (~1.2×10⁻¹⁸ s⁻¹); ³He-anchored | — (QLF has no explicit γ; **SRC fills QLF gap**) | 1 |
 | **Stiffness β, G_shear** | Longitudinal / transverse stiffness (set self-renewal rate) | — (emerge via closure structure) | 1 |
-| **Piezoelectric coupling χ**
+| **χ (piezoelectric coupling) — SRC: transverse-shear stress → EM field; QLF: gauge-fold delay as EM (needs a Tier-1 sentence)
+η (stochastic noise) — SRC: Quantum Butterfly perturbation; QLF: non-closed history tail (pruned by full_zeno_prune)
+f_res (global heartbeat) — SRC: global resonance frequency; QLF: (open — no direct analog yet) 
