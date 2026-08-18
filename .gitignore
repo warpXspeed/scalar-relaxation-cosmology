@@ -6,3 +6,5 @@ __pycache__/
 .DS_Store
 outputs/*
 !outputs/.gitkeep   # optional: keep empty dir
+__pycache__/
+*.pyc
