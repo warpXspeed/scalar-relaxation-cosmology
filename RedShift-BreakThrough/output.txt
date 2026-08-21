@@ -1,0 +1,28 @@
+===========================================================
+SRC v2 — SDF DERIVATION SIM (Reading 2)
+f = sqrt(T/rho) / L  (derived from substrate state)
+============================================================
+EMITTER STATE:
+  T_emit = 1.0, rho_emit = 1.0, L_emit = 1.0
+  c_T_emit = 1.0000 m/s
+  f_emit   = 1.0000 Hz
+
+OBSERVER STATE:
+  T_obs  = 1.0, rho_obs = 1.69, L_obs = 1.0
+  c_T_obs  = 0.7692 m/s
+  f_obs    = 0.7692 Hz
+
+DERIVED REDSHIFT:
+  1+z = f_emit/f_obs = 1.3000
+  z   = 0.3000
+
+TIME DILATION:
+  20-day supernova -> 26.0 days observed
+  (Consistency check: reproduces (1+z) dilation structure —
+   necessary but NOT a discriminating test vs. standard cosmology)
+
+LUMINOSITY DIMMING (separate: gamma term):
+  dimming factor = 0.50
+============================================================
+f DERIVED from substrate state (T, rho, L). NOT hardcoded.
+Redshift = clock ratio. Dimming = gamma. Two separate objects.
