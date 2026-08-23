@@ -1,41 +1,61 @@
-# Transverse Wave Speed in SRC: Quantitative Demonstration (cₜ = √β)
+# Module U: Transverse Wave Speed Verification ($c_t = \sqrt{\beta}$)
 
-## Physical Interpretation
+**Document Ref:** SRC-MOD-NUM-001  
+**Category:** Computational Physics / Wave Mechanics  
+**Ontology:** Exact Spectral Time-Stepping & Substrate Light Speed Verification  
 
-In the crystalline-fluid picture:
-- The scalar field φ acts as a compressible fluid with self-generated interlocking crystalline order.
-- **Transverse shear waves** in this medium are interpreted as light (electromagnetic-like propagation).
-- Linearised small perturbations obey the wave equation ∂²φ/∂t² = β ∇²φ.
-- Analytic dispersion relation: ω = √β |k| → phase speed **cₜ = √β exactly**.
-- This √β is identified as the **emergent speed of light** in SRC.
+---
 
-## Method: Exact Spectral Propagation
+## 1. Mathematical Foundation
 
-The script `scripts/wave_speed_measure.py` uses a **Fourier spectral method** with **exact analytic time-stepping** for each mode:
-- No numerical dispersion, no stability limits.
-- Each Fourier mode evolves via the exact solution of the wave equation.
-- The simulation is mathematically identical to the continuum theory.
+In Scalar Relaxation Cosmology (SRC), electromagnetism and light are not separate gauge fields floating in empty space. They are **transverse shear waves ($S$-waves)** propagating through the pre-tensioned, self-organizing scalar lattice ($\phi$).
 
-The only "error" comes from extracting the frequency via FFT on a finite time series (standard spectral leakage).
+Linearizing small transverse perturbations about the equilibrium ground state yields the wave equation:
 
-## Results (65,384 steps)
+$$\frac{\partial^2 \phi}{\partial t^2} = \beta \nabla^2 \phi$$
 
-- Measured transverse speed: **cₜ = 0.010950523820**
-- Theoretical: **√β = 0.010954451150**
-- Relative error: **0.036%**
+The analytic dispersion relation is given by:
 
-This sub-0.04% agreement confirms recovery of the exact analytic speed.
+$$\omega(k) = \sqrt{\beta} \cdot |k| \implies c_t = \frac{\omega}{|k|} = \sqrt{\beta}$$
 
-See `figures/wave_speed_measure.pdf`:
-- Top: long train of clean cosine oscillations.
-- Bottom: ultra-sharp spectral peak at the theoretical frequency.
+The parameter $\sqrt{\beta}$ is identified as the **emergent speed of light ($c$)** within the viscoelastic substrate.
 
-## Reproducibility
+---
 
-Run directly:
-```bash
-python scripts/wave_speed_measure.py
+## 2. Computational Verification (`scripts/wave_speed_measure.py`)
 
-Increase steps for even lower error.This provides rigorous quantitative support: light emerges as transverse shear waves propagating at exactly √β in the SRC crystalline cosmic fluid.No additional fields or parameters required.
+To eliminate numerical dispersion and artificial grid dissipation, the benchmark script uses a **Fourier spectral method** with exact analytic time-stepping for each individual mode in $k$-space:
 
-EOF
+INITIAL PERTURBATION (k-space) ───► EXACT TIME-STEPPER: φ_k(t) = A_k cos(ω_k t) ───► FFT SPECTRUM
+
+
+* **Method:** Exact mode-by-mode analytic propagation (zero finite-difference truncation error).
+* **Spectral Resolution:** FFT peak extraction on a high-density temporal grid.
+
+---
+
+## 3. Benchmark Results
+
+Across 65,384 time-steps, the measured propagation speed matches the theoretical substrate parameter to within **$0.036\%$**:
+
+| Metric | Analytic Prediction ($\sqrt{\beta}$) | Measured Simulation Value ($c_t$) | Relative Error |
+| :--- | :--- | :--- | :--- |
+| **Transverse Shear Speed** | **$0.010954451150\text{ m/s}$** | **$0.010950523820\text{ m/s}$** | **$0.036\%$** |
+
+AMPLITUDE
+  ▲
+1.0 ┼    / \     / \     / \     / \     / 
+│   /   \   /   \   /   \   /   \   /   
+0.0 ┼───┼───┼───┼───┼───┼───┼───┼───┼───┼───┼───► TIME (t)
+-1.0 ┼    \ /     \ /     \ /     \ /     \ /
+│
+└───────────────────────────────────────────► Ultra-sharp FFT Peak at ω = √β |k|
+
+
+---
+
+## 4. Physical Significance
+
+1. **Zero Ad-Hoc Postulates:** The speed of light is derived as an emergent material property of the substrate ($\sqrt{\beta} = \sqrt{T/\rho}$), rather than postulated as an unexplainable geometric constant of "empty" space.
+2. **Reproducibility:** The exact simulation deck is available in the repository at `scripts/wave_speed_measure.py`.
+
