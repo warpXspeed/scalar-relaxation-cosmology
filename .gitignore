@@ -8,3 +8,4 @@ outputs/*
 !outputs/.gitkeep   # optional: keep empty dir
 __pycache__/
 *.pyc
+_backup_before_reorg/
