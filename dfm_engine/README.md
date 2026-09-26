@@ -1,4 +1,3 @@
-
 # DFM Finite-Gap Engine
 
 **Algebraic core for the Dynamic Fluid Medium (DFM) / dark-aether model.**
