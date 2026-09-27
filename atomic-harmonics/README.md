@@ -8,6 +8,7 @@ A speculative cosmological and physical framework interpreting planetary history
 We have replaced the probabilistic Standard Model with a deterministic, fluid-dynamic architecture. Atoms are modeled as nested double-toroids, and chemical reactions run via topological phase-locking.
 
 👉 **Explore the full module:** [`atomic-harmonics/README.md`](atomic-harmonics/README.md)
+ ![Harmonic Periodic System](harmonic-table.png)
 
 ### Key Sub-Documents:
 - [01: Nuclear Geometry & Forces](atomic-harmonics/01-nuclear-geometry.md) — Double-toroids, Grassmannians ($Gr(k,n)$), and the unification of strong/weak forces via harmonics.
