@@ -1,0 +1,72 @@
+cff-version: 1.2.0
+message: "If you use this software or the underlying SRC / DFM framework, please cite it as below."
+title: "Scalar Relaxation Cosmology — DFM Finite-Gap Engine"
+type: software
+authors:
+  - family-names: "warpXspeed"
+    email: ""
+repository-code: "https://github.com/warpXspeed/scalar-relaxation-cosmology"
+url: "https://github.com/warpXspeed/scalar-relaxation-cosmology"
+abstract: >-
+  Algebraic core for Scalar Relaxation Cosmology (SRC) that realizes the
+  Dynamic Fluid Medium as finite-gap solutions on the Sato Grassmannian.
+  Provides exact (non-grid) reconstruction of potential, current, and shear
+  from the Riemann theta function; pulse injection with permanent phase
+  memory; path-dependent adiabatic moduli drift; and a measured adiabatic
+  validity condition ε ≲ 0.05.
+keywords:
+  - scalar relaxation cosmology
+  - Sato Grassmannian
+  - finite-gap integration
+  - integrable systems
+  - Dynamic Fluid Medium
+  - adiabatic moduli drift
+license: MIT
+version: "0.1.0"
+date-released: "2026-09-26"
+references:
+  - type: article
+    title: "Soliton equations as dynamical systems on infinite dimensional Grassmann manifolds"
+    authors:
+      - family-names: Sato
+        given-names: Mikio
+    year: 1981
+    journal: "RIMS Kokyuroku"
+    volume: "439"
+    pages: "30-46"
+  - type: article
+    title: "Loop groups and equations of KdV type"
+    authors:
+      - family-names: Segal
+        given-names: Graeme
+      - family-names: Wilson
+        given-names: George
+    year: 1985
+    journal: "Publications Mathématiques de l'IHÉS"
+    volume: "61"
+    pages: "5-65"
+  - type: book
+    title: "Algebro-Geometric Approach to Nonlinear Integrable Equations"
+    authors:
+      - family-names: Belokolos
+        given-names: E. D.
+      - family-names: Bobenko
+        given-names: A. I.
+      - family-names: Enolskii
+        given-names: V. Z.
+      - family-names: Its
+        given-names: A. R.
+      - family-names: Matveev
+        given-names: V. B.
+    year: 1994
+    publisher: "Springer"
+  - type: article
+    title: "Theta functions and non-linear equations"
+    authors:
+      - family-names: Dubrovin
+        given-names: B. A.
+    year: 1981
+    journal: "Russian Mathematical Surveys"
+    volume: "36"
+    issue: "2"
+    pages: "11-92"
