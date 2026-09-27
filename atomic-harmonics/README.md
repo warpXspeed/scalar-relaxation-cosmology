@@ -11,12 +11,12 @@ We have replaced the probabilistic Standard Model with a deterministic, fluid-dy
  ![Harmonic Periodic System](harmonic-table.png)
 
 ### Key Sub-Documents:
-## Document Index
 
 - [01: Nuclear Geometry & Forces](01-nuclear-geometry.md) — Double-toroids, Grassmannians ($Gr(k,n)$), and unified forces.
 - [02: Algorithmic Reaction Engine](02-reaction-engine.md) — Shear-delta ($\Delta \tau$) topological matching.
 - [03: The Harmonic Periodic System](03-harmonic-table.md) — Native 3D Globe and 2D Map architecture.
 - [04: Element Mapping & Octave Scaling](04-element-mapping.md) — Concrete mapping of Hydrogen, Helium, and Period 2 transitions.
+- [05: Interaction Archetypes](05-interaction-archetypes.md) — The fundamental classes of chemical behavior (covalent, ionic, noble).
 - [Legacy Translation Matrix (Rosetta Stone)](rosetta-stone.md) — Standard Model to Aetheric equivalents.
 
 ---
