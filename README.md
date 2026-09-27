@@ -1,23 +1,3 @@
-
-## SRC as Crystalline Cosmic Fluid
-
-The scalar field φ is a **compressible cosmic fluid with self-generated interlocking crystalline order** (liquid-crystal / quasicrystal hybrid).
-
-| Feature                     | Physical Analogue                              | SRC Implementation                                                                 |
-|-----------------------------|------------------------------------------------|------------------------------------------------------------------------------------|
-| **Interlocking lattice**    | Tetrahedral/hexagonal grains that shear but stay locked | Topological term **β/2 |∇φ|⁴** penalises slip between grains → elastic stiffness. |
-| **Force transfer**          | Compression waves → gravity-like pull<br>Shear waves → EM-like currents | Linearised equations give two sound speeds: **cₗ** (compression/gravity) and **cₜ** (shear/light). |
-| **Vortices = particles**    | Lattice defects/dislocations (stable due to topology) | Hopfion/vortex solutions are defects with winding **W**. |
-| **Damping γ**               | Viscous drag                                   | Explicit **γ ∂ₜφ** term. |
-| **Axial flow (expansion)**  | Global shear → cosmic expansion                | Uniform background flow drives Hubble-like term. |
-
-**Speed of light**: Photons are transverse shear waves → **c = cₜ = √β** (in natural units where ρ=1). Gravity waves are longitudinal compression at cₗ.
-
-**Bottom line**: Forces propagate as elastic waves through the interlocking crystal-fluid. Vortices (particles) are stable defects. No action at a distance, no separate dark components.
-
-See notebooks in `notebooks/` for quantitative extraction of cₜ, cₗ, vortex statistics, and expansion rate.
-
-
 ## SRC as Crystalline Cosmic Fluid
 
 The scalar field **φ** is interpreted as a **compressible cosmic fluid with self-generated interlocking crystalline order** (liquid-crystal / quasicrystal hybrid).
@@ -60,4 +40,21 @@ These scripts provide simple, standalone demonstrations of key SRC concepts usin
 
 See also: Technical Manual Section 15.5 for the theoretical context (piezoelectric emergence and ice analog).
 
+---
 
+## 🗺️ Extended Framework Architecture
+
+Building upon the core DFM engine, the framework expands into macroscopic aether dynamics, atomic harmonics, and deterministic chemistry:
+
+### [Layer 1: Substrate & DFM Engine (`dfm_engine/` & `01-substrate/`)](dfm_engine/README.md)
+- **[DFM Finite-Gap Engine Core](dfm_engine/README.md)** — Riemann-surface data, Sato Grassmannian finite-gap solutions, phase memory, and transient shear tracking.
+- **[Aether Dynamics & Macro-Forces](01-substrate/aether-substrate.md)** — Grassmannian parent space, gravity as an inflow current (resolving $G$), and EM as pressure/vorticity.
+
+### [Layer 2: Atomic Harmonics & Chemistry (`02-atomic-harmonics/`)](02-atomic-harmonics/)
+*Atoms as nested vortex solitons and harmonic octaves.*
+- **[Nuclear Geometry & Forces](02-atomic-harmonics/01-nuclear-geometry.md)** — Double-toroids and Grassmannians ($Gr(k,n)$).
+- **[Algorithmic Reaction Engine](02-atomic-harmonics/02-reaction-engine.md)** — Shear-delta ($\Delta \tau$) topological matching.
+- **[The Harmonic Periodic System](02-atomic-harmonics/03-harmonic-table.md)** — Native 3D Globe and 2D Map architecture.
+- **[Element Mapping & Octave Scaling](02-atomic-harmonics/04-element-mapping.md)** — Hydrogen to Period 2 transitions.
+- **[Interaction Archetypes](02-atomic-harmonics/05-interaction-archetypes.md)** — Covalent, ionic, and noble behaviors.
+- **[Legacy Translation (Rosetta Stone)](02-atomic-harmonics/rosetta-stone.md)** — Standard Model to Aetheric equivalents.
