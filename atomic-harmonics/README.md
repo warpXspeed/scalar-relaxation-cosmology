@@ -1,20 +1,19 @@
-# Atomic Harmonics & Vortex Chemistry
+# Scalar Relaxation Cosmology (SRC)
 
-This directory houses the atomic-structure and chemical-interaction framework for **Scalar Relaxation Cosmology (SRC)**. 
+A speculative cosmological and physical framework interpreting planetary history, atomic structure, and fundamental forces through plasma electrodynamics, quantum-mechanical collective states, and dynamic aether fluid mechanics.
 
-Mainstream physics relies on empirical patches, probabilistic wavefunctions, and a 17-particle zoo because it treats space as empty and atoms as point-mass assemblies. This framework replaces that complexity with a deterministic, fluid-dynamic architecture.
+---
 
-## Core Concepts
+## 🔬 Featured Module: Atomic Harmonics & Vortex Chemistry
+We have replaced the probabilistic Standard Model with a deterministic, fluid-dynamic architecture. Atoms are modeled as nested double-toroids, and chemical reactions run via topological phase-locking.
 
-- **The Double-Toroid Atom:** Nuclei are modeled as high-frequency centripetal vortex cores (aether sinks), while electron shells are low-frequency peripheral boundary rings sitting at acoustic nodal nulls.
-- **Unified Forces via Harmonics:** 
-  - *Strong Force:* The primary high-amplitude standing-wave confinement of the core toroid.
-  - *Weak Force:* A secondary harmonic beat frequency or torsional phase slip between nested layers.
-- **Grassmannian Geometry ($Gr(k,n)$):** "Particles" are not independent fundamental objects; they are codimension-1 boundaries and facets of constrained geometric subspaces.
-- **The Harmonic Periodic System:** Replacing the flat grid with a native 3D toroidal spiral (Globe) and a continuous 2D flat projection (Map) organized by octave scaling and torsional symmetry.
-- **Algorithmic Reactions:** Replacing brute-force quantum approximations (DFT) with deterministic topological phase-locking and aetheric shear-delta ($\Delta \tau$) calculations.
+👉 **Explore the full module:** [`atomic-harmonics/README.md`](atomic-harmonics/README.md)
 
-## Document Index
+### Key Sub-Documents:
+- [01: Nuclear Geometry & Forces](atomic-harmonics/01-nuclear-geometry.md) — Double-toroids, Grassmannians ($Gr(k,n)$), and the unification of strong/weak forces via harmonics.
+- [02: Algorithmic Reaction Engine](atomic-harmonics/02-reaction-engine.md) — Replacing DFT and quantum approximations with shear-delta ($\Delta \tau$) topological matching.
+- [03: The Harmonic Periodic System](atomic-harmonics/03-harmonic-table.md) — The native 3D Globe and 2D Map architecture replacing the flat grid.
+- [Rosetta Stone (Legacy Translation)](atomic-harmonics/rosetta-stone.md) — Mapping Standard Model terms to aetheric equivalents.
 
-- [The Full Framework Documentation](01-nuclear-geometry.md) *(Coming soon)*
-- [Legacy Translation Matrix (Rosetta Stone)](rosetta-stone.md) *(Coming soon)*
+---
+*(Additional SRC research modules, Venus probe concepts, and cosmological frameworks will be cataloged here as development continues.)*
