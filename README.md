@@ -46,7 +46,8 @@ These scripts provide simple, standalone demonstrations of key SRC concepts usin
   Features temperature-dependent surface enhancement near the 160 K ferroelectric transition.  
   Dependencies: numpy, matplotlib  
   Run: `python scripts/ice_flexo_analog.py`  
-  Example output: [[/scripts/outputs/ice_flexo_T200K.png](https://github.com/warpXspeed/scalar-relaxation-cosmology/blob/main/outputs/ice_flexo_T200K.png)](outputs/ice_flexo_T200K.png)
+  Example output: [scripts/outputs/ice_flexo_T200K.png](scripts/outputs/ice_flexo_T200K.png)
+
 
 See also: Technical Manual Section 15.5 for the theoretical context (piezoelectric emergence and ice analog).
 
