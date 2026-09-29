@@ -23,3 +23,5 @@ Below is the mathematically accurate, fixed-step structural map of all 118 eleme
 - [05: Interaction Archetypes](05-interaction-archetypes.md) — The fundamental classes of chemical behavior (covalent, ionic, noble).
 - [Element Octave & Boundary Shell Reference](element-octave-reference.md) — Complete 118-element lookup guide for atomic numbers, names, and acoustic boundary capacities.
 - [Legacy Translation Matrix (Rosetta Stone)](rosetta-stone.md) — Standard Model to Aetheric equivalents.
+- [First-Principles Reaction Engine](scripts/reaction_engine.py) — Continuous field reaction model running purely on tuple mechanics ($f, \tau, \Delta P$).
+
